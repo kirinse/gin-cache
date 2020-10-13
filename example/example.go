@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gin-contrib/cache"
-	"github.com/gin-contrib/cache/persistence"
 	"github.com/gin-gonic/gin"
+	"github.com/kirinse/gin-cache"
+	"github.com/kirinse/gin-cache/persistence"
 )
 
 func main() {
